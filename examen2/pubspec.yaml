@@ -1,0 +1,39 @@
+name: examen2
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Supabase (Auth + DB + Storage)
+  supabase_flutter: ^2.8.0
+
+  # Mapa OpenStreetMap
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # Geolocalización (mi ubicación)
+  geolocator: ^13.0.1
+
+  # Elegir foto (galería/cámara)
+  image_picker: ^1.1.2
+
+  # Utilidad para mostrar rutas de archivos y permisos
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
